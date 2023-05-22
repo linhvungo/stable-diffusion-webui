@@ -238,7 +238,7 @@ def prepare_environment():
     taming_transformers_commit_hash = os.environ.get('TAMING_TRANSFORMERS_COMMIT_HASH', "24268930bf1dce879235a7fddd0b2355b84d7ea6")
     k_diffusion_commit_hash = os.environ.get('K_DIFFUSION_COMMIT_HASH', "c9fe758757e022f05ca5a53fa8fac28889e4f1cf")
     # codeformer_commit_hash = os.environ.get('CODEFORMER_COMMIT_HASH', "c5b4593074ba6214284d6acd5f1719b6c5d739af")
-    codeformer_commit_hash = os.environ.get('CODEFORMER_COMMIT_HASH', "4724c90b6b9d5183da383f2bdae6ddf9b0bf045d")
+    codeformer_commit_hash = os.environ.get('CODEFORMER_COMMIT_HASH', "fbc4a807ead48b2281aa65fd99cde220dbcf1398")
     blip_commit_hash = os.environ.get('BLIP_COMMIT_HASH', "48211a1594f1321b00f14c9f7a5b4813144b2fb9")
 
     if not args.skip_python_version_check:
